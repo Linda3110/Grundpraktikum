@@ -1,0 +1,77 @@
+\section{Theorie}
+\label{sec:Theorie}
+
+Die bereits heute bekannten Teilchen werden den beiden Gruppen der Leptonen und Quarks zugeordnet. \newline 
+\noindent Die Myonen sind ein Hauptbestandteil der sekundären kosmischen Strahlung. Im Jahr 1936 wurden bei der Untersuchung von kosmischer Strahlung die Myonen von Carl D. Anderson und Seth Neddermeyer entdeckt. Sobald hochenergetische Strahlung (wie zum Beispiel Protonen) auf die obere Erdatmosphäre trifft, zerfällt diese in Pionen und Kaonen. Anschließend zerfallen diese weiter in Myonen und Anti-Myonen und den entsprechenden Neutrinos.\newline
+\noindent Somit entsteht ein großer Anteil der Myonen bei einer Höhe von etwa 10 $\mathrm{km}$. Diese sind jedoch kurzlebig und können die Erde nur aufgrund ihrer relativistischen Geschwindigkeit (Zeitdilation) erreichen. In diesem Versuch wird die Lebensdauer der kosmischen Myonen gemessen. Dafür wird ein Szintillator genutzt. In diesem sind Moleküle enthalten, die beim Durchgang geladener Teilchen angeregt werden. Die dabei entstehende Energie wird in Form von Licht, meist im sichtbarem oder ultraviolettem Bereich abgegeben.
+
+\subsection{Eigenschaften des Myons}
+\label{sec:Eigenschaften}
+Das Myon $\symup{\mu^{-}}$ ist ein instabiles Elementarteilchen (Fermion) und stammt aus der Gruppe der Leptonen.\newline
+\noindent Die Myonen entstehen aus Pionen-Zerfällen in der oberen Atmosphäre, die wie folgt beschrieben werden:
+
+\begin{equation}
+\symup{\pi^{+} \rightarrow \mu^{+} + \nu_{\mu}}
+\label{Pionzerfall1}
+\end{equation}
+\begin{equation}
+\symup{\pi^{-} \rightarrow \mu^{-} + \bar{\nu}_{\mu}  .}
+\label{Pionzerfall2}
+\end{equation}
+
+\noindent Anschließend zerfallen die entstandenen Myonen durch schwache Wechselwirkung weiter und zwar wie folgt:
+
+\begin{equation}
+\symup{\mu^{+} \rightarrow e^{+} + \bar{\nu}_{\mu} + \nu_{e}} 
+\label{Pionzerfall3}
+\end{equation}
+\begin{equation}
+\symup{\mu^{-} \rightarrow e^{-} + \bar{\nu}_{e} + \nu_{\mu}  .}
+\label{Pionzerfall4}
+\end{equation}
+
+\noindent Mit einem Spin von 1/2 und einer elektrischen Ladung von -e (negative Elementarladung) ähnelt es sehr dem Elektron $\symup{e^-}$. Die Elektronen gehören ebenfalls zusammen mit den Tauonen $\symup{\tau^-}$ zu der Klasse der Leptonen. Jedoch hat das Myon eine rund 200mal größere Masse als das Elektron. In Tabelle \ref{tab:Eigenschaften} sind die physikalischen Eigenschaften des Myons zusammengefasst.
+
+\begin{table}[H]
+\centering
+\caption{Die physikalischen Eigenschaften des Myons. [2]}
+\begin{tabular}{|c|c|}
+\hline
+Ladung & $\symup{-e = -1,602 \cdot 10^{-19}} \mathrm{C}$ \\
+\hline
+Ruhemasse $\symup{m_0}$ & 206,77$\symup{m_e}$ = 1,883 \cdot 10^{-28} $\mathrm{kg}$\\
+\hline
+Ruheenergie & 105,66 $\mathrm{\frac{MeV}{c^2}}$\\
+\hline
+Lebensdauer $\symup{\tau}$ & $2,2 \, \symup{\mu s}$\\
+\hline
+\end{tabular}
+\label{tab:Eigenschaften}
+\end{table}
+
+\subsection{Lebensdauer des Myons}
+\label{sec:Lebensdauer}
+Da das Myon ein instabiles Elementarteilchen ist, ist der Zerfall ein statistisch verteilter Prozess. Jedes einzelne Teilchen kann somit eine individuelle Lebensdauer haben. Dafür wird eine charakteristische Größe definiert, die den Prozess allgemein beschreibt. Im infinitesimalen Bereich wird die Wahrscheinlichkeit dW des Zerfalls wie folgt definiert
+
+\begin{equation}
+\label{Wahrscheinlichkeit}
+\symup{dW = \lambda dt .}
+\end{equation}
+
+\noindent Somit ist diese Wahrscheinlichkeit proportional zum Beobachtungszeitraum dt mit dem Proportionalitätsfaktor $\symup{\lambda}$. Diese Konstante wird als Zerfallskonstante definiert. \newline
+\noindent Die Teilchen zerfallen unabhängig voneinander und die Zerfallswahrscheinlichkeit hängt nicht von der Lebenszeit des Teilchens ab. Somit ergibt sich aus der Gleichung \ref{Wahrscheinlichkeit} für die Zahl dN der im Zeitintervall dt zerfallenen Teilchen
+\begin{equation}
+\label{dN}
+\symup{dN = -NdW = -\lambda N dt  .}
+\end{equation} 
+\noindent Dabei wird für N eine sehr große Zahl angenommen. Anschließend wird die Gleichung \ref{dN} näherungsweise integriert von t bis $\symup{t+dt}$ und so ergibt sich die Verteilungsfunktion der Lebensdauer t mit
+\begin{equation}
+\label{Verteilungsfkt}
+\symup{\frac{dN(t)}{N_0} = \lambda e^{-\lambda t} dt.}
+\end{equation}
+\noindent Hierbei steht $\symup{N_0}$ für die Gesamtanzahl der betrachteten Teilchen. Nun kann daraus die charakteristische Lebensdauer ermittelt werden. Dafür wird der Mittelwert aller möglichen Lebensdauern entsprechend ihrer Häufigkeit gebildet. Es ergibt sich nun
+\begin{equation}
+\label{Lebensdauer}
+\symup{\tau = \int_0^\infty \lambda t e^{-\lambda t} dt = \frac{1}{\lambda}}
+\end{equation}
+\noindent die Lebensdauer eines Myons, die reziprok von der bereits genannten Zerfallskonstante $\symup{\lambda}$ abhängt.
